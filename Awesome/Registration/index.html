@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="\styles.css">
+  </head>
+  <body>
+    <header>
+      Registartion Form
+    </header>
+<hr>
+<label for="name">Name*</label><br>
+<input type="text" name="name" value="" placeholder="John Doe" required><br><br>
+<label for="email">Email*</label><br>
+<input type="email" name="email" value="" placeholder="jdoe123@hotmail.com" required><br><br>
+<label for="telephone">Telephone</label><br>
+<input type="number" name="telephone" value="telephone" maxlength="3" size="3" placeholder="555">
+<input type="number" name="telephone" value="telephone" maxlength="3" size="3" placeholder="555">
+<input type="number" name="telephone" value="telephone" maxlength="4" size="4" placeholder="5555">
+<br><br>
+<label for="birthdate">DOB*</label><br>
+<input type="date" name="birthdate" value="01/01/2004" required><br><br>
+<label>Gender</label><br>
+<label for="male"><input type="radio" name="gender" value="male" id="male">Male</label>
+<label for="female"><input type="radio" name="gender" value="female" id="female">Female</label>
+<label for="other"><input type="radio" name="gender" value="other" id="other">Other</label><br><br>
+
+<label for="household">Household Size</label><br>
+<input type="number" name="hosehold" value="0" min="1" max="15"><br>
+
+<label for="income">Annual Income</label><br>
+<select id="income" name="income">
+  <option value="1">Less than $40,000</option>
+  <option value="2">$40,000-$75,000</option>
+  <option value="3">$75,000+</option>
+</select><br><br><br>
+
+<label for="message">Message</label><br>
+<textarea name="message" rows="8" cols="80" placeholder="add message here..."></textarea><br><br>
+
+<label for="password">Password*</label><br>
+<input type="password" name="password" value="password" required><br>
+<label for="confirm">Confirm Password*</label><br>
+<input type="password" name="confirm" value="password" required><br><br><br>
+
+<label for="terms"><input type="checkbox" name="terms" value="terms" required> By signing up, you agree to the <a href="#">Terms of Service</a></label><br><br>
+
+<input type="Submit" name="submit" value="Submit">
+
+  </body>
+</html>

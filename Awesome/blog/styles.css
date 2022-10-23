@@ -1,0 +1,57 @@
+body {
+  background-color: #f9f9f9;
+  background-image: url(https://www.massagemag.com/wordpress/wp-content/uploads/Meditation_Practice.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: 'Fuzzy Bubbles', cursive, didot, sans-serif;
+
+}
+p {
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
+
+.sub-img {
+max-width: 400px;
+max-height: 300px;
+margin-left: 35%;
+margin-right: 45%;
+border-radius: 9px;
+}
+
+h1, h2 {
+  color: rgba(0, 0, 255, 0.5);
+  gap: 40px;
+  display: flex;
+  flex-direction: column;
+}
+h1 #intro {
+  text-align: start;
+  text-shadow: lightsteelblue;
+  font-size: xx-large;
+}
+
+.follow {
+  background-color: azure;
+  color: rgba(0, 0, 255, 0.5);
+  border-color: rgba(0, 0, 255, 0.5);
+  border-radius: 4px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline;
+}
+
+.me {
+  border-radius: 50%;
+  max-width: 75px;
+  max-height:75px;
+}
+h1, h2, p, div {
+  margin-left: 25px;
+}
