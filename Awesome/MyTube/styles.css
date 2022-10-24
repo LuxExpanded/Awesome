@@ -42,7 +42,7 @@ div h3, div p, nav, h1, h2 {
   text-align: center;
 }
 
-div h3 {
+div h3, div p {
   padding-bottom: 25px;
 }
 
