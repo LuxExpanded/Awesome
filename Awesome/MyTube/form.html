@@ -24,16 +24,16 @@
 
   <h1>Add New Video</h1>
 
-    <label for="title">Video Title</label><br>
-    <input type="text" name="title" value="input value"><br><br><br>
+    <label for="title" required>Video Title</label><br>
+    <input type="text" name="title" value="" placeholder="Title of Video"><br><br><br>
 
-    <label for="description">Description</label><br>
+    <label for="description" required>Description</label><br>
     <textarea name="description" rows="8" cols="80" placeholder="Enter a short description of video"></textarea><br><br><br>
 
-    <label for="videofile">Video</label><br>
+    <label for="videofile" required>Video</label><br>
     <input type="file" name="videofile" value="Choose File"><br><br><br>
 
-    <select class="radio" name="collection">
+    <select class="radio" name="collection" required>
       <option value="">Choose Collection</option>
       <option value="1">Collection 1</option>
       <option value="2">Collection 2</option>

@@ -16,12 +16,21 @@ body {
   margin: 0 auto;
   border-radius: 10px;
 }
+
+/* header */
+
 nav {
   background-color: rgba(167, 199, 231, 0.5);
   font-size: 22px;
   justify-content: space-background;
   padding-top: 15px;
 }
+
+h1{
+  text-decoration: underline;
+}
+
+/* body */
 
 iframe {
   margin: 20px auto;
@@ -35,4 +44,10 @@ div h3, div p, nav, h1, h2 {
 
 div h3 {
   padding-bottom: 25px;
+}
+
+/* form specific changes */
+
+input {
+  margin-bottom: 20px;
 }
