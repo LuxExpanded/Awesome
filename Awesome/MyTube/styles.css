@@ -1,13 +1,15 @@
 /* basic set up */
 body {
   align-content: center;
-  background-image: url(https://img.freepik.com/free-photo/cool-geometric-triangular-figure-neon-laser-light-great-background_181624-11412.jpg?w=2000);
+  /* background-image: url(https://img.freepik.com/free-photo/cool-geometric-triangular-figure-neon-laser-light-great-background_181624-11412.jpg?w=2000); */
+  background-color: rgba(129, 158, 168, 0.9);
   background-repeat: no-repeat;
   background-size: cover;
+  color: rgb(255, 255, 255);
 }
 
 .body {
-  background-color: rgba(167, 199, 231, 0.9);
+  background-color: rgba(93, 138, 168, 0.9);
   font-family: 'Josefin Sans', sans-serif;
   position: relative;
   max-width: min-content;
@@ -17,6 +19,22 @@ body {
   border-radius: 10px;
 }
 
+
+a:link {
+  color:rgb(255, 255, 255);
+}
+
+a:visited {
+  color:rgb(27, 27, 27);
+}
+
+a:hover {
+  color:rgb(255, 0, 255);
+}
+
+a:active {
+  color:rgb(128, 255, 0);
+}
 /* header */
 
 nav {
